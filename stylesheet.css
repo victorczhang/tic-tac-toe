@@ -1,0 +1,85 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    table-layout: fixed;
+    height: 50px;
+    width: 50px;
+}
+
+table {
+    /* align-items: center; */
+    /* background: blue; */
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    table-layout: fixed;
+}
+
+.game-buttons {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.player-info {
+    text-align: center;
+    margin: 0 auto;
+    /* padding: 0 10px 0 10px; */
+    width: 200px;
+}
+
+#player2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* #cell0:hover {
+    background-color: aqua;
+} */
+
+/* #cell1:hover {
+    background-color: blanchedalmond;
+} */
+
+#cell2:hover, #cell0:hover, #cell1:hover, #cell3:hover, #cell4:hover, #cell5:hover, #cell6:hover, #cell7:hover, #cell8:hover {
+    background-color: paleturquoise;
+}
+/* 
+#cell3:hover {
+    background-color: #68c584;
+}
+
+#cell4:hover {
+    background-color: palevioletred;
+}
+
+#cell5:hover {
+    background-color: lightseagreen;
+}
+
+#cell6:hover {
+    background-color: lightsteelblue;
+}
+
+#cell7:hover {
+    background-color: palegoldenrod;
+}
+
+#cell8:hover {
+    background-color: firebrick;
+} */
+
+.nonclickable {
+    pointer-events: none;
+}
